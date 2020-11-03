@@ -88,3 +88,6 @@ par(mfrow=c(2,1))
 plot(type="l", x=intervalByWeekAvg$interval[intervalByWeekAvg$working], y=intervalByWeekAvg$steps[intervalByWeekAvg$working],xlab="Interval",ylab="workday") 
 plot(type="l", x=intervalByWeekAvg$interval[!intervalByWeekAvg$working], y=intervalByWeekAvg$steps[!intervalByWeekAvg$working],xlab="Interval",ylab="weekend")
 ```
+
+
+#End document
